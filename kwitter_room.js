@@ -11,8 +11,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
- userName=localStorage.getItem("username");
- document.getElementById("username").innerHTML="Welcome:"+ username + "! Have fun chatting/creating rooms for friends to join!";
+ userName=localStorage.getItem("User name");
+ document.getElementById("username").innerHTML="Welcome:"+ userName + "! Have fun chatting/creating rooms for friends to join!";
  function addRoom()
 {
   roomName=document.getElementById("room_name").value;
